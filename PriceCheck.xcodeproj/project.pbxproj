@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DB151D62CA5B99E0011DE3E /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB151D52CA5B99E0011DE3E /* LocationView.swift */; };
+		5DB151D82CA5B9A90011DE3E /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB151D72CA5B9A90011DE3E /* ScanView.swift */; };
+		5DB151DA2CA5BC1B0011DE3E /* ScanDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB151D92CA5BC1B0011DE3E /* ScanDetailsView.swift */; };
 		E7D5EE062531EA2500C17A92 /* PriceCheckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5EE052531EA2500C17A92 /* PriceCheckApp.swift */; };
 		E7D5EE082531EA2500C17A92 /* ScanListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5EE072531EA2500C17A92 /* ScanListView.swift */; };
 		E7D5EE0A2531EA2600C17A92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7D5EE092531EA2600C17A92 /* Assets.xcassets */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5DB151D52CA5B99E0011DE3E /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		5DB151D72CA5B9A90011DE3E /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		5DB151D92CA5BC1B0011DE3E /* ScanDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanDetailsView.swift; sourceTree = "<group>"; };
 		E7D5EE022531EA2500C17A92 /* PriceCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PriceCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7D5EE052531EA2500C17A92 /* PriceCheckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceCheckApp.swift; sourceTree = "<group>"; };
 		E7D5EE072531EA2500C17A92 /* ScanListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanListView.swift; sourceTree = "<group>"; };
@@ -92,6 +98,9 @@
 			isa = PBXGroup;
 			children = (
 				E7D5EE072531EA2500C17A92 /* ScanListView.swift */,
+				5DB151D52CA5B99E0011DE3E /* LocationView.swift */,
+				5DB151D72CA5B9A90011DE3E /* ScanView.swift */,
+				5DB151D92CA5BC1B0011DE3E /* ScanDetailsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -175,10 +184,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DB151D82CA5B9A90011DE3E /* ScanView.swift in Sources */,
 				E7D5EE082531EA2500C17A92 /* ScanListView.swift in Sources */,
+				5DB151D62CA5B99E0011DE3E /* LocationView.swift in Sources */,
 				E7D5EE3725325A7000C17A92 /* Location.swift in Sources */,
 				E7D5EE062531EA2500C17A92 /* PriceCheckApp.swift in Sources */,
 				E7D5EE182531EBB000C17A92 /* PriceScan.swift in Sources */,
+				5DB151DA2CA5BC1B0011DE3E /* ScanDetailsView.swift in Sources */,
 				E7D5EE342532599C00C17A92 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
